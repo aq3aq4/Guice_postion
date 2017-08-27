@@ -6,6 +6,9 @@ import javax.inject.Named;
 import com.jodu.guice.usemethod.service.OrderService;
 
 public class UserApplication {
+	/**
+	 * Inject와 Named를 이용한 의존성 주입!!
+	 */
 	@Inject @Named("pizza") private OrderService pOs;
 	@Inject @Named("coffie") private OrderService cOs;
 	
