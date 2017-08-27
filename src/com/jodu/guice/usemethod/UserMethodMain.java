@@ -6,7 +6,7 @@ import com.jodu.guice.usemethod.app.UserApplication;
 import com.jodu.guice.usemethod.config.InjectConfig;
 
 public class UserMethodMain {
-	
+	/** main */
 	public static void main(String[] args) {
 		Injector ij = Guice.createInjector(new InjectConfig());
 		UserApplication ua = ij.getInstance(UserApplication.class);
